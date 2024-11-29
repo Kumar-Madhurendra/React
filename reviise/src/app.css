@@ -1,0 +1,42 @@
+/* Basic styling for the body */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+      font-family: "Open Sans", sans-serif;
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(to right, #a9a9ff, #d4a3ff, #ffc0cb); /* Gradient effect */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+  
+    
+}
+  .card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+     text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input {
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  

@@ -1,0 +1,9 @@
+.heading{
+    color:rgb(15, 215, 250);
+    /* background: rgba(210, 210, 12, 0.1); */
+    /* border-color: blue; */
+    border-width:thick;
+    border:solid;
+    border-color: rgb(168, 23, 23)
+    ;
+}
