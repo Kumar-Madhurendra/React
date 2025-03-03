@@ -39,6 +39,7 @@ function App() {
         console.log(firstName, lastName);
          
       }
+      //custom argument(Desired arguments) ko pass krne k liye hmm wrapper class use krte h
       function wrapperFunction(){
         handleClick2("roushan" ," shanu");
       }

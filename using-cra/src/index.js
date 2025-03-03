@@ -26,11 +26,10 @@ root1.render(
 // }
 // root2.render(<Hello />);
 
-
 // -----------------------------IMPORTING COMPONENT(helloWorld) -------------------------------------------------
 // -----------------------------Basically in react we called each function as component -------------------------------------------------
 
-//----------- ## for single import 
+//----------- ## for single import
 // import Hello from "./HelloWorld";
 
 // const root1=ReactDOM.createRoot(document.getElementById("root"));
@@ -46,18 +45,17 @@ root1.render(
 // root1.render(
 //     <>
 //     <Hello/>
-//      <HelloWorld2/> 
+//      <HelloWorld2/>
 //      </>
-   
-// );
 
+// );
 
 // -----------------------------IMPORTING only app.js (helloWorld) -------------------------------------------------
 import Aap from "./Aap";
 
-const root=ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <>
-    <Aap/>
-    </>
-)
+  <>
+    <Aap />
+  </>
+);
